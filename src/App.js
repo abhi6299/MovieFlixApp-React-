@@ -75,7 +75,7 @@ class App extends React.Component {
     const {movies} =this.state;
     return (
       <>
-        <h1>MovieFlix</h1>
+        {/* <h1>MovieFlix</h1> */}
         <NavBar cartCount={this.state.cartCount}/>
         <MovieList movies={movies}
                     addStars = {this.handleIncStars} 
